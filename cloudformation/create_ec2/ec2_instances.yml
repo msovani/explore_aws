@@ -1,0 +1,10 @@
+Resources:
+  TESTINSTANCE:
+    Type: AWS::EC2::Instance
+    Properties:
+      AvailabilityZone: us-east-2b
+      ImageId: ami-00bcac5ae8c849ed7
+      InstanceType: t4g.micro
+      SecurityGroups:
+        - first--933
+      KeyName: msovani
